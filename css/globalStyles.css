@@ -14,10 +14,10 @@ html{
 	--black-3:#5b6359;
 	--white-1:#e8e8e8;
 	--red-1:#f72409;
-	--violet-1:#e617e3;
+	--violet-1:#f9cff8;
 }
 body{
-	background-color: var(--lightgreen-2);
+	background-color: var(--violet-1);
 	overflow: hidden;
 }
 section{
