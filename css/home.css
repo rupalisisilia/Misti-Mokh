@@ -5,7 +5,7 @@
 	flex-direction: column-reverse;
 	gap: 5rem;
 }
-.hero__left__wrapper{
+/*.hero__left__wrapper{
 	max-width: 360px;
 }
 .hero__imgWrapper{
