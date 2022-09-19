@@ -4,15 +4,16 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>booking | Rupali</title>
+	<title>Booking | Rupali Rozario</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/globalStyles.css">
 	<link rel="stylesheet" href="css/components.css">
+
 	<!--aos css-->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-	<!--nav section-->
+	<!-- nav section -->
 	<div class="nav">
 		<div class="container">
 			<div class="nav__wrapper">
@@ -43,10 +44,68 @@
 			</div>
 		</div>
 	</div>
-	<!--end nav section-->
-<h1>This is booking page</h1>	
-<!--footer-->
-<footer>
+	<!-- end nav section -->
+	<!--booking section-->
+	<section id="form" data-aos="fade-up">
+		<div class="container">
+			<h3 class="form__title">Book Table</h3>
+			<div class="form__wrapper">
+				<form>
+					<div class="form__group">
+						<label for="firstName">First Name</label>
+						<input type="text" id="firstName" name="first_name" required>
+					</div>
+					<div class="form__group">
+						<label for="last">Last Name</label>
+						<input type="text" id="lastname" name="last_name" required>
+					</div>
+					<div class="form__group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required>
+					</div>
+					<div class="form__group">
+						<label for="tableType">Table Type</label>
+						<select name="table_type" id="tableType" required>
+						<option selected disabled>Choose</option>
+						<option value="small">Small (2 persons)</option>
+						<option value="medium">Medium (4 persons)</option>
+						<option value="large">Large (6 persons)</option>
+						</select>
+					</div>
+					<div class="form__group">
+						<label for="guestNumber">Guest Number</label>
+						<input type="number" id="guestNumber" name="guest_Number" min="1" max="10" required>	
+					</div>
+					<div class="form__group">
+						<label for="placement">Placement</label>
+						<select name="placement" id="placement" required>
+						<option selected disabled>Choose</option>
+						<option value="outdoor">Outdoor</option>
+						<option value="indoor">Indoor</option>
+						<option value="rooftop">Rooftop</option>
+						</select>
+					</div>
+					<div class="form__group">
+						<label for="data">Data</label>
+						<input type="date" id="data" name="data" required>
+					</div>
+					<div class="form__group">
+						<label for="time">time</label>
+						<input type="time" id="data" name="time" required>
+					</div>
+					<div class="form__group form__group__full">
+						<label for="note">Note</label>
+						<textarea name="note" id="note" rows="4" required></textarea>
+					</div>
+					<button type="submit" class="btn primary-btn">Book Table</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!--end booking section-->
+
+	<!--footer-->
+	<footer>
 	<div class="container">
 		<div class="footer__wrapper">
 			<div class="footer__col1">
@@ -116,6 +175,7 @@
 	</div>
 </footer>
 
+
 <div id="copyright">
 	<div class="container">
 		<p class="copyright__text">
@@ -123,8 +183,12 @@
 		</p>
 	</div>
 </div>
-<!--end footer-->
-<!--aos script-->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<!--end footer-->
+
+	<!--aos script-->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<!--custom script-->
+	<script src="./main.js"></script>	
 </body>
 </html>
