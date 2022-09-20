@@ -222,25 +222,25 @@ footer{
 }
 .storeInfo__item{
 	background-color: var(--lightgreen-1);
-	padding: 20px 30px;
+	padding: 10px 20px;
 	text-align: center;
 	border-radius: 12px;
-	width: 150px;
+	width: 100px;
 }
 .storeInfo__icon{
-	width: 30px;
+	width: 20px;
 	margin: 0 auto;
 	margin-bottom: 1.5rem;
 }
 .storeInfo__title{
-	font-size: 1rem;
+	font-size: 0.8rem;
 	font-family: poppins;
 	font-weight: 500;
 	margin-bottom: 0.5rem;
 	color: var(--black-1);
 }
 .storeInfo__text{
-	font-size: 1rem;
+	font-size: 0.8rem;
 	font-family: Raleway;
 	color: var(--black-2);
 }
@@ -249,24 +249,24 @@ footer{
 		gap: 2rem;
 	}
 	.storeInfo__item{
-		min-width: 200px;
-		padding: 40px 0;
+		min-width: 150px;
+		padding: 25px 0;
 	}
 	.storeInfo__icon{
-		width: 47px;
+		width: 25px;
 		margin-bottom: 2.5rem;
 	}
 	.storeInfo__title{
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-bottom: 1rem;
 	}
-	.footer__text{
-		font-size: 1.2rem;	
+	.storeInfo__text{
+		font-size: 1rem;	
 	}
 }
 /* DishGrid styles */
 .dishGrid__title{
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	margin-bottom: 2rem;
 	font-weight: 600;
 	color: var(--black-1);
@@ -295,14 +295,14 @@ footer{
 	border-radius: 12px;
 }
 .dishGrid__item__title{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 1.3em;
 	font-weight: 500;
 	color: var(--black-1);
 	margin-bottom: 0.5rem;
 }
 .dishGrid__item__price{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: var(--green-1);
 	font-weight: 600;
 	margin-bottom: 0.5rem;
@@ -313,7 +313,7 @@ footer{
 }
 @media only screen and (min-width: 768px){
 	.dishGrid__title{
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 	.dishGrid__wrapper{
 		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -325,11 +325,11 @@ footer{
 		gap: 1rem;
 	}
 	.dishGrid__item__title{
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-bottom: 1rem;
 	}
 	.dishGrid__item__price{
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-bottom: 1rem;
 	}
 }
