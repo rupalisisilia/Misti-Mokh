@@ -18,13 +18,13 @@
 	font-weight: 600;
 	line-height: 1.4em;
 	text-align: center;
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 	margin-bottom: 1.5rem;
 	color: var(--black-1);
 }
 .hero__info{
 	text-align: center;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	margin-bottom: 1.5rem;
 	color: var(--black-2);
 }
@@ -43,14 +43,14 @@
 		flex: 4;
 	}
 	.hero__heading{
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 		margin-bottom: 2rem;
 		text-align: left;
 	}
 	.hero__info{
 		margin-bottom: 2rem;
 		text-align: left;
-		font-size: 1.4rem;
+		font-size: 1rem;
 	}
 	.button__wrapper{
 		text-align: left;
@@ -94,14 +94,14 @@
 	object-fit: cover;
 }
 .OurSpecials__item__title{
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	color: var(--black-1);
 	font-weight: 600;
 	margin-bottom: 1rem;
 }
 .OurSpecials__item__price{
 	color: var(--green-1);
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
 }
@@ -111,12 +111,12 @@
 	margin-bottom: 1rem;
 }
 .OurSpecials__item__text{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: var(--black-2);
 	font-weight: 500;
 }
 .OurSpecials__title{
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	color: var(--black-1);
 	margin-bottom: 1.5rem;
 }
@@ -124,7 +124,7 @@
 	color: var(--red-1);
 }
 .OurSpecials__text{ 
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: var(--black-2);
 	margin-bottom: 1rem;
 }
@@ -151,29 +151,29 @@
 		width: 45%;
 	}
 	.OurSpecials__item__title{
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		line-height: 1.4em;
 		margin-bottom: 1.5rem;
 	}
 	.OurSpecials__item__price{
-		font-size: 1.8rem;
+		font-size: 1.2rem;
 		margin-bottom: 1rem;
 	}
 	.OurSpecials__item__stars{
 		margin-bottom: 2rem;
 	}
 	.OurSpecials__item__text{
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.OurSpecials__title{
-		font-size: 2.2rem;
+		font-size: 1.2rem;
 		margin-bottom: 1.5rem;
 	}
 	.OurSpecials__title:hover{
 		color: var(--red-1);
 	}
 	.OurSpecials__text{
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-bottom: 1.5rem;
 	}
 }
@@ -212,13 +212,13 @@
 	border-radius: 12px;
 }
 .discount__text{
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 900;
 	color: var(--green-1);
 	margin-bottom: 0.5rem;
 }
 .discount__title{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: var(--black-1);
 	font-weight: 600;
 	margin-bottom: 1rem;
@@ -260,20 +260,20 @@
 	.discount__img2,
 	.discount__img3{
 		flex: 1;
-		height: 350px;
+		height: 200px;
 	}
 	.discount__info{
 		flex: 3;
 	}
 	.discount__text{
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 	.discount__title{
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-bottom: 1.5rem;
 	}
 	.discount__price{
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 	.discount__stars{
 		height: 20px;
@@ -290,30 +290,7 @@
 
 }
 
-/* Events Media section styles */
-.eventsMedia__wrapper{
-	display: flex;
-	gap: 1rem;
-}
-.eventsMedia__1{
-	position: relative;
-}
-.eventsMedia__1__playButton{
-	display: inline-block;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	max-width: 50px;
-}
-@media only screen and (min-width: 768px){
-	.eventsMedia__wrapper{
-		gap: 2rem;
-	}
-	.eventsMedia__1__playButton{
-		max-width: 100px;
-	}
-}
+
 /* Events Info section style */
 #eventsInfo{
 	padding-top: 0;
@@ -342,25 +319,25 @@
 	flex: 4;
 }
 .eventsInfo__item__title{
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	margin-bottom: 1rem;
 	color: var(--black-1);
 }
 .eventsInfo__item__text{
-	font-size: 1.4rem;
+	font-size: 1rem;
 	color: var(--black-2);
 }
 .eventsInfo__right{
 	margin-top: 2rem;
 }
 .eventsInfo__title{
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 	color: var(--black-1);
 	margin-bottom: 1rem;
 }
 .eventsInfo__text{
 	color: var(--black-2);
-	font-size: 1.4rem;
+	font-size: 1rem;
 	margin-bottom: 1rem ;
 }
 @media only screen and (min-width: 768px){
@@ -379,17 +356,17 @@
 		margin-bottom: 2rem;
 	}
 	.eventsInfo__item__title{
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 	}
 	.eventsInfo__item__text{
-		font-size: 1.6rem;
+		font-size: 1.2rem;
 	}
 	.eventsInfo__title{
-		font-size: 3.6rem;
+		font-size: 1.6rem;
 	}
 	.eventsInfo__text{
 		max-width: 500px;
-		font-size: 1.8rem;
+		font-size: 1.2rem;
 		margin-bottom: 2rem;
 	}
 }
