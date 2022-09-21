@@ -476,7 +476,7 @@
 	padding: 1rem;
 	display: flex;
 	gap: 1rem;
-	background-color: var(--lightgreen-1);
+	background-color: var(--green-2);
 	border-radius: 12px;
 }
 .testimonial__item__info{
@@ -511,7 +511,7 @@
 		max-width: 900px;
 	}
 	.testimonial__title{
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 		margin-bottom: 5rem;
 	}
 	.testimonial__items__wrapper{
@@ -522,14 +522,14 @@
 		padding: 2rem;
 	}
 	.testimonial__item__name{
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		margin-bottom: 1.5rem;
 	}
 	.testimonial__item__stars{
 		margin-bottom: 2rem;
 	}
 	.testimonial__item__text{
-		font-size: 1rem;
+		font-size: 0.8rem;
 		line-height: 1.4em;
 	}
 }
