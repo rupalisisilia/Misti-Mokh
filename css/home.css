@@ -326,20 +326,20 @@
 	color: var(--black-1);
 }
 .eventsInfo__item__text{
-	font-size: 1rem;
+	font-size: 0.8rem;
 	color: var(--black-2);
 }
 .eventsInfo__right{
 	margin-top: 2rem;
 }
 .eventsInfo__title{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: var(--black-1);
 	margin-bottom: 1rem;
 }
 .eventsInfo__text{
 	color: var(--black-2);
-	font-size: 1rem;
+	font-size: 0.8rem;
 	margin-bottom: 1rem ;
 }
 @media only screen and (min-width: 768px){
@@ -358,18 +358,23 @@
 		margin-bottom: 2rem;
 	}
 	.eventsInfo__item__title{
-		font-size: 1.4rem;
-	}
-	.eventsInfo__item__text{
 		font-size: 1.2rem;
 	}
+	.eventsInfo__item__text{
+		font-size: 1rem;
+	}
 	.eventsInfo__title{
-		font-size: 1.6rem;
+		font-size: 1.4rem;
+		margin-left: 4rem;
 	}
 	.eventsInfo__text{
 		max-width: 500px;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		margin-bottom: 2rem;
+		padding: 0 140px 0 40px;
+	}
+	.eventsInfo__right a{
+		margin-left: 4rem;
 	}
 }
 /* why Us section styles */
@@ -385,13 +390,13 @@
 }
 .whyUs__title{
 	font-family: poppins;
-	font-size: 1.8rem;
+	font-size: 1rem;
 	color: var(--black-1);
 	font-weight: 500;
 	margin-bottom: 1rem;
 }
 .whyUs__text{
-	font-size: 1.4rem;
+	font-size: 0.8rem;
 }
 .whyUs__items__wrapper{
 	display: grid;
@@ -400,25 +405,25 @@
 }
 .whyUs__item{
 	background: var(--lightgreen-1);
-	padding: 2rem;
+	padding: 1rem;
 	border-radius: 12px;
 	text-align: center;
 }
 .whyUs__item__icon{
-	max-width: 56px;
+	max-width: 45px;
 	margin: 0 auto;
 	margin-bottom: 1rem;
 }
 .whyUs__item__text{
 	font-family: poppins;
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-weight: 500;
 	color: var(--black-1);
 }
 @media only screen and (min-width: 768px){
 	.whyUs__wrapper{
 		flex-direction: row;
-		max-width: 900px;
+		max-width: 600px;
 		margin: 0 auto;
 	}
 	.whyUs__left{
@@ -429,25 +434,25 @@
 		flex: 3;
 	}
 	.whyUs__title{
-		font-size: 3.6rem;
+		font-size: 1.2rem;
 		margin-bottom: 2rem;
 	}
 	.whyUs__text{
-		font-size: 1.8rem;
+		font-size: 1rem;
 		line-height: 1.4em;
 	}
 	.whyUs__items__wrapper{
 		gap: 1.5rem;
 	}
 	.whyUs__item{
-		padding: 2rem;
+		padding: 1rem;
 	}
 	.whyUs__item__icon{
-		max-width: 65px;
+		max-width: 45px;
 		margin-bottom: 1.5rem;
 	}
 	.whyUs__item__text{
-		font-size: 1.8rem;
+		font-size: 1rem;
 	}
 }
 /* Testimonial section styles */
