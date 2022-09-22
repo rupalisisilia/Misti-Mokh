@@ -15,6 +15,7 @@ html{
 	--MistyRose: #FFE4E1;
 	--LavenderBlush: #FFF0F5;
 	--red-1:#f52664;
+	--red-2:#f26c94;
 }
 body{
 	background-color: var(--MistyRose);
