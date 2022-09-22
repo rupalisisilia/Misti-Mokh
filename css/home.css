@@ -333,13 +333,13 @@
 	margin-top: 2rem;
 }
 .eventsInfo__title{
-	font-size: 1rem;
+	font-size: 1.6rem;
 	color: var(--black-1);
 	margin-bottom: 1rem;
 }
 .eventsInfo__text{
 	color: var(--black-2);
-	font-size: 0.8rem;
+	font-size: 1.4rem;
 	margin-bottom: 1rem ;
 }
 @media only screen and (min-width: 768px){
@@ -358,24 +358,22 @@
 		margin-bottom: 2rem;
 	}
 	.eventsInfo__item__title{
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 	}
 	.eventsInfo__item__text{
-		font-size: 1rem;
+		font-size: 1.6rem;
 	}
 	.eventsInfo__title{
-		font-size: 1.4rem;
-		margin-left: 4rem;
+		font-size: 2.6rem;
+		
 	}
 	.eventsInfo__text{
 		max-width: 500px;
-		font-size: 1rem;
+		font-size: 1.8rem;
 		margin-bottom: 2rem;
-		padding: 0 140px 0 40px;
+		
 	}
-	.eventsInfo__right a{
-		margin-left: 4rem;
-	}
+	
 }
 /* why Us section styles */
 .whyUs__wrapper{
@@ -390,13 +388,13 @@
 }
 .whyUs__title{
 	font-family: poppins;
-	font-size: 1rem;
+	font-size: 1.8rem;
 	color: var(--black-1);
 	font-weight: 500;
 	margin-bottom: 1rem;
 }
 .whyUs__text{
-	font-size: 0.8rem;
+	font-size: 1.4rem;
 }
 .whyUs__items__wrapper{
 	display: grid;
@@ -405,25 +403,25 @@
 }
 .whyUs__item{
 	background: var(--lightgreen-1);
-	padding: 1rem;
+	padding: 2rem;
 	border-radius: 12px;
-	text-align: center;
+	
 }
 .whyUs__item__icon{
-	max-width: 45px;
+	max-width: 56px;
 	margin: 0 auto;
 	margin-bottom: 1rem;
 }
 .whyUs__item__text{
 	font-family: poppins;
-	font-size: 1rem;
+	font-size: 1.4rem;
 	font-weight: 500;
 	color: var(--black-1);
 }
 @media only screen and (min-width: 768px){
 	.whyUs__wrapper{
 		flex-direction: row;
-		max-width: 600px;
+		max-width: 900px;
 		margin: 0 auto;
 	}
 	.whyUs__left{
@@ -434,25 +432,25 @@
 		flex: 3;
 	}
 	.whyUs__title{
-		font-size: 1.2rem;
+		font-size: 2.4rem;
 		margin-bottom: 2rem;
 	}
 	.whyUs__text{
-		font-size: 1rem;
+		font-size: 1.6rem;
 		line-height: 1.4em;
 	}
 	.whyUs__items__wrapper{
 		gap: 1.5rem;
 	}
 	.whyUs__item{
-		padding: 1rem;
+		padding: 2rem;
 	}
 	.whyUs__item__icon{
-		max-width: 45px;
+		max-width: 65px;
 		margin-bottom: 1.5rem;
 	}
 	.whyUs__item__text{
-		font-size: 1rem;
+		font-size: 1.8rem;
 	}
 }
 /* Testimonial section styles */
@@ -461,7 +459,7 @@
 	margin: 0 auto;
 }
 .testimonial__title{
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	margin-bottom: 3rem;
 	text-align: center;
 	text-transform: capitalize;
@@ -493,7 +491,7 @@
 	object-fit: cover;
 }
 .testimonial__item__name{
-	font-size: 1rem;
+	font-size: 1.4rem;
 	font-family: poppins;
 	margin-bottom: 1rem;
 	color: var(--black-1);
@@ -504,14 +502,14 @@
 	margin-bottom: 1.5rem;
 }
 .testimonial__item__text{
-	font-size: 0.8rem;
+	font-size: 1.4rem;
 }
 @media only screen and (min-width: 768px){
 	.testimonial__wrapper{
 		max-width: 900px;
 	}
 	.testimonial__title{
-		font-size: 1.4rem;
+		font-size: 2.4rem;
 		margin-bottom: 5rem;
 	}
 	.testimonial__items__wrapper{
@@ -522,14 +520,14 @@
 		padding: 2rem;
 	}
 	.testimonial__item__name{
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 		margin-bottom: 1.5rem;
 	}
 	.testimonial__item__stars{
 		margin-bottom: 2rem;
 	}
 	.testimonial__item__text{
-		font-size: 0.8rem;
+		font-size: 1.6rem;
 		line-height: 1.4em;
 	}
 }
