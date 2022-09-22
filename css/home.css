@@ -214,19 +214,19 @@
 	border-radius: 12px;
 }
 .discount__text{
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: 900;
 	color: var(--green-1);
 	margin-bottom: 0.5rem;
 }
 .discount__title{
-	font-size: 1rem;
+	font-size: 1.8rem;
 	color: var(--black-1);
 	font-weight: 600;
-	margin-bottom: 1rem;
+	padding: 10px 20px 10px 0;
 }
 .discount__price{
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 	display: flex;
 	gap: 1rem;
@@ -262,20 +262,20 @@
 	.discount__img2,
 	.discount__img3{
 		flex: 1;
-		height: 200px;
+		height: 350px;
 	}
 	.discount__info{
 		flex: 3;
 	}
 	.discount__text{
-		font-size: 1.2rem;
+		font-size: 2rem;
 	}
 	.discount__title{
-		font-size: 1rem;
-		margin-bottom: 1.5rem;
+		font-size: 2rem;
+		padding: 20px 30px 10px 0;
 	}
 	.discount__price{
-		font-size: 1.2rem;
+		font-size: 2rem;
 	}
 	.discount__stars{
 		height: 20px;
@@ -321,12 +321,12 @@
 	flex: 4;
 }
 .eventsInfo__item__title{
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	margin-bottom: 1rem;
 	color: var(--black-1);
 }
 .eventsInfo__item__text{
-	font-size: 0.8rem;
+	font-size: 1.4rem;
 	color: var(--black-2);
 }
 .eventsInfo__right{
