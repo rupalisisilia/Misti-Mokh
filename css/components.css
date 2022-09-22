@@ -14,10 +14,10 @@
 }
 .nav__list li{
 	display: inline-block;
-	margin: 0 0.2rem;
+	margin:0 1rem;
 }
 .nav__list .nav__link{
-	font-size: 1rem;
+	font-size: 1.8rem;
 	font-family: 'poppins';
 	color: var(--black-2);
 	padding: 0.5rem;
@@ -69,10 +69,10 @@
    .nav__list li{
 	display: block;
 	text-align: right;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
    }
    .nav__list a{
-	font-size: 1rem;
+	font-size: 1.6rem;
    }
    .nav__bgoverlay{
 	position: absolute;
@@ -95,7 +95,7 @@
 	font-family: 'poppins';
 	font-weight: 500;
 	border-radius: 8px;
-	font-size: 1rem;
+	font-size: 1.4rem;
 	padding: 1.2rem 2rem;
 }
 .primary-btn{
@@ -106,7 +106,7 @@
 @media only screen and (min-width: 768px) {
 	.btn{
 		padding: 1.3rem 2rem;
-		font-size: 1.2rem;
+		font-size: 2rem;
 	}
 }
 
@@ -126,12 +126,12 @@ footer{
 	margin-bottom: 2rem;
 }
 .footer__desc{
-	font-size: 1rem;
+	font-size: 1.4rem;
 	color: var(--black-2);
 	margin-bottom: 2rem;
 }
 .footer__socials__title{
-	font-size: 1.2rem; 
+	font-size: 1.8rem; 
 	color: var(--black-1); 
 	margin-bottom: 1rem;                              
 }
@@ -150,13 +150,13 @@ footer{
 	color: var(--black-2);
 }
 .footer__text__title{
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 	margin-bottom: 1rem;
 	color: var(--black-1);
 	font-weight: 600;
 }
 .footer__text a{
-	font-size: 1rem;
+	font-size: 1.4rem;
 	margin-bottom: 0.5rem;
 	color: var(--black-2);
 	font-family: Raleway;
@@ -182,19 +182,19 @@ footer{
 	}
 	.footer__desc{
 		max-width: 300px;
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 		margin-bottom: 2.5rem;
 	}
 	.footer__socials__title{
-		font-size: 1.4rem;
+		font-size: 2rem;
 		margin-bottom: 1.5rem;
 	}
 	.footer__text__title{
-		font-size: 1.2rem;
+		font-size:2rem;
 		margin-bottom: 2rem;
 	}
 	.footer__text a{
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 		margin-bottom: 1rem;
 	}
 
@@ -203,12 +203,12 @@ footer{
 	padding: 1rem 0;
 }
 .copyright__text{
-	font-size: 1rem;
+	font-size: 1.4rem;
 	text-align: center;
 }
 @media only screen and (min-width: 768px){
 	.copyright__text{
-		font-size: 1rem;
+		font-size: 1.6rem;
 		text-align: left;
 	}
 }
@@ -219,54 +219,56 @@ footer{
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;
+	margin-bottom: 6rem;
 }
 .storeInfo__item{
 	background-color: var(--lightgreen-1);
-	padding: 10px 20px;
+	padding: 20px 30px;
 	text-align: center;
 	border-radius: 12px;
-	width: 100px;
+	width: 150px;
 }
 .storeInfo__icon{
-	width: 20px;
+	width: 30px;
 	margin: 0 auto;
 	margin-bottom: 1.5rem;
 }
 .storeInfo__title{
-	font-size: 0.8rem;
+	font-size: 1.4rem;
 	font-family: poppins;
 	font-weight: 500;
 	margin-bottom: 0.5rem;
 	color: var(--black-1);
 }
 .storeInfo__text{
-	font-size: 0.8rem;
+	font-size: 1.4rem;
 	font-family: Raleway;
 	color: var(--black-2);
 }
 @media only screen and (min-width: 768px){
 	.storeInfo__wrapper{
 		gap: 2rem;
+		margin-bottom: 10rem;
 	}
 	.storeInfo__item{
-		min-width: 150px;
-		padding: 25px 0;
+		min-width: 200px;
+		padding: 40px 0;
 	}
 	.storeInfo__icon{
-		width: 25px;
+		width: 47px;
 		margin-bottom: 2.5rem;
 	}
 	.storeInfo__title{
-		font-size: 1rem;
+		font-size: 1.8rem;
 		margin-bottom: 1rem;
 	}
 	.storeInfo__text{
-		font-size: 1rem;	
+		font-size: 1.6rem;	
 	}
 }
 /* DishGrid styles */
 .dishGrid__title{
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 	margin-bottom: 2rem;
 	font-weight: 600;
 	color: var(--black-1);
@@ -295,14 +297,14 @@ footer{
 	border-radius: 12px;
 }
 .dishGrid__item__title{
-	font-size: 1rem;
+	font-size: 1.4rem;
 	line-height: 1.3em;
 	font-weight: 500;
 	color: var(--black-1);
 	margin-bottom: 0.5rem;
 }
 .dishGrid__item__price{
-	font-size: 1rem;
+	font-size: 1.4rem;
 	color: var(--green-1);
 	font-weight: 600;
 	margin-bottom: 0.5rem;
@@ -313,7 +315,7 @@ footer{
 }
 @media only screen and (min-width: 768px){
 	.dishGrid__title{
-		font-size: 1.2rem;
+		font-size: 2.4rem;
 	}
 	.dishGrid__wrapper{
 		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -325,11 +327,11 @@ footer{
 		gap: 1rem;
 	}
 	.dishGrid__item__title{
-		font-size: 1rem;
+		font-size: 2rem;
 		margin-bottom: 1rem;
 	}
 	.dishGrid__item__price{
-		font-size: 1rem;
+		font-size: 2rem;
 		margin-bottom: 1rem;
 	}
 }
