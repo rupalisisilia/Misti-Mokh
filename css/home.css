@@ -18,7 +18,7 @@
 	font-weight: 600;
 	line-height: 1.4em;
 	text-align: center;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	margin-bottom: 1.5rem;
 	color: var(--black-1);
 }
@@ -43,7 +43,7 @@
 		flex: 4;
 	}
 	.hero__heading{
-		font-size: 1.6rem;
+		font-size: 2.8rem;
 		margin-bottom: 2rem;
 		text-align: left;
 	}
