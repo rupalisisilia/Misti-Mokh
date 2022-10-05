@@ -213,6 +213,9 @@ footer{
 	}
 }
 /* storeInfo styles */
+#storeInfo{
+	background-color: var(--lightgreen-2);
+}
 .storeInfo__wrapper{
 	display: flex;
 	align-items: stretch;
@@ -338,6 +341,7 @@ footer{
 /* form styles */
 #form{
 	padding: 5rem 0;
+	background-color: var(--lightgreen-2);
 }
 .form__title{
 	font-size: 1.8rem;
