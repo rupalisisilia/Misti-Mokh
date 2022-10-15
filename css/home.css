@@ -602,11 +602,12 @@
 }
 .newsletter__form input::placeholder{
 	color: rgb(168, 166, 166);
+	font-size: 1.2rem;
 }
 .newsletter__form button[type='submit']{
 	background-color: var(--green-1);
 	color: var(--white-1);
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	border: none;
 	padding: 0 2rem;
 	height: 100%;
@@ -625,7 +626,7 @@
 		flex: 1;
 	}
 	.newsletter__title{
-		font-size: 3.6rem;
+		font-size: 3rem;
 		margin-bottom: 2rem;
 	}
 	.newsletter__text{
